@@ -177,6 +177,34 @@ a:focus {
     }
 }
 
+/* components: author */
+
+.c-author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+.c-authorimage{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.c-authorname,
+.c-authormeta{
+    margin-bottom: 0;
+}
+.c-authormeta{
+    font-size: 14px;
+    font-family: "Inter", "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 24px;
+}
+.c-authorname {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
 /* Large devices (landscape tablets, desktops, 992px and up) */
 
 @media (min-width: 992px) {}
